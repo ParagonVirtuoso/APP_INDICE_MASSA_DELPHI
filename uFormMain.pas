@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
 
 type
   TFrmPrincipal = class(TForm)
@@ -12,9 +12,11 @@ type
     BtnVerRequisitos: TButton;
     Label1: TLabel;
     Label3: TLabel;
-    Label4: TLabel;
-    Label5: TLabel;
     Label2: TLabel;
+    EdtAltura: TEdit;
+    EdtPeso: TEdit;
+    Panel1: TPanel;
+    CmbSexo: TComboBox;
   private
     { Private declarations }
   public
