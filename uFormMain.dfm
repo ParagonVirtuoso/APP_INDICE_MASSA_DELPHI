@@ -59,6 +59,7 @@ object FrmPrincipal: TFrmPrincipal
     Height = 25
     Caption = 'Resultado'
     TabOrder = 0
+    OnClick = BtnResultadoClick
   end
   object BtnVerRequisitos: TButton
     Left = 270
