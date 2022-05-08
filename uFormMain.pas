@@ -37,13 +37,14 @@ implementation
 procedure TFrmPrincipal.BtnResultadoClick(Sender: TObject);
 begin
   try
-  P_Dados_Pessoa.Altura := StrToFloat (EdtAltura.Text);
-  P_Dados_Pessoa.Peso := StrToFloat( EdtPeso.Text );
-  P_Dados_Pessoa.Sexo := CmbSexo.text;
-  P_Dados_Pessoa.IMC := 'não definido';
-  FrmResultado.ShowModal;
+    P_Dados_Pessoa.Altura := StrToFloat(EdtAltura.Text);
+    P_Dados_Pessoa.Peso := StrToFloat(EdtPeso.Text);
+    P_Dados_Pessoa.Sexo := CmbSexo.Text;
+    P_Dados_Pessoa.IMC := CalcularIMC(P_Dados_Pessoa.Peso,
+      P_Dados_Pessoa.Altura, P_Dados_Pessoa.Sexo);
+    FrmResultado.ShowModal;
   except
-   ShowMessage('Dados inválidos!');
+    ShowMessage('Dados inválidos!');
   end;
 end;
 

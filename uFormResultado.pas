@@ -38,7 +38,7 @@ begin
   LblAltura.Caption := FloatToStr(P_Dados_Pessoa.Altura);
   LblPeso.Caption := FloatToStr(P_Dados_Pessoa.Peso);
   LblSexo.Caption := P_Dados_Pessoa.Sexo;
-  LblIMC.Caption := P_Dados_Pessoa.IMC;
+  LblImc.Caption := P_Dados_Pessoa.IMC;
 
 end;
 
