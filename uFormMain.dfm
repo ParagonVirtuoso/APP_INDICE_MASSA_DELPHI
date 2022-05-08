@@ -67,6 +67,7 @@ object FrmPrincipal: TFrmPrincipal
     Height = 25
     Caption = 'Ver Requisitos'
     TabOrder = 1
+    OnClick = BtnVerRequisitosClick
   end
   object EdtAltura: TEdit
     Left = 224

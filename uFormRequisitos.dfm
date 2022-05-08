@@ -2,7 +2,7 @@ object FrmRequisitos: TFrmRequisitos
   Left = 0
   Top = 0
   Caption = 'Tabela com os requisitos'
-  ClientHeight = 479
+  ClientHeight = 185
   ClientWidth = 905
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -22,7 +22,7 @@ object FrmRequisitos: TFrmRequisitos
     Margins.Top = 0
     Margins.Right = 0
     Margins.Bottom = 0
-    Align = alClient
+    Align = alTop
     Picture.Data = {
       0A544A504547496D6167658E9B0000FFD8FFE000104A46494600010101007800
       780000FFDB004300020101020101020202020202020203050303030303060404
